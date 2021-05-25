@@ -14,7 +14,6 @@ function App() {
       <Header />
       <Footer />
       <div className="sections">
-        
         <Home />
         <Portfolio />
         <Contact />
