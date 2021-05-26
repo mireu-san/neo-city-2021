@@ -5,7 +5,10 @@ export default function Header() {
         <div className="header">
             <div className="wrapper">
                 <div className="left">
-                    <a href="#home" className="logo">Logo location</a>
+                    <a href="#home" className="logo">Mirue Chronicle</a>
+                    <div className="itemContainer">
+                        
+                    </div>
                 </div>
                 <div className="right">right side section, header</div>
             </div>
