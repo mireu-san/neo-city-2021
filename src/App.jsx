@@ -1,11 +1,11 @@
 import React from "react";
 import Header from "./Components/Containers/Header/Header";
 import Footer from "./Components/Containers/Footer/Footer";
+import Menu from "./Components/Containers/Menu/Menu";
 
 import Home from "./Components/Pages/Home/Home";
 import Portfolio from "./Components/Pages/Portfolio/Portfolio";
 import Contact from "./Components/Pages/Contact/Contact";
-import Menu from "./Components/Containers/Menu/Menu";
 
 import "./App.scss";
 import { useState } from "react";
@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="app">
       <Header menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-      <Menu />
+      <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <Footer />
       <div className="sections">
         <Home />

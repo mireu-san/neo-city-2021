@@ -12,3 +12,11 @@ location: App.scss
 Link: https://css-tricks.com/practical-css-scroll-snapping/
 Solution : apply navigation layout css setting to index.html (top priority) > index.css
 
+[ ] transition dynamic css - looks like hamburger bar(header) is somewhat duplicated(clash) with sidebar 'menu'. 
+-Problem : hamburger bar dynamic transition does not showing up anymore.
+-When ? :
+as soon as ({menuOpen, setMenuOpen}) applies to Menu.jsx.
+The problem will disappear if they removed.
+-Solution : working on it.
+-Note : maybe start debugging it from [header, app, menu]. 
+See any duplication in route.
