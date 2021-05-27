@@ -7,8 +7,10 @@ import Portfolio from "./Components/Pages/Portfolio/Portfolio";
 import Contact from "./Components/Pages/Contact/Contact";
 
 import "./App.scss";
+import { useState } from "react";
 
 function App() {
+  const [menuOpen, setMenuOpen] = useState(false)
   return (
     <div className="app">
       <Header />

@@ -3,9 +3,12 @@ My own portfolio purpose webpage to demonstrate the ability of using React.js, J
 
 # Technical note:
 - Used scss (snap-scrolling effect)
+- Looks like material-ui is more dynamic than font-awesome. Replacing in progress.
+
 
 # Error note:
 [X] scroll-snap-align (CSS) is not working!
 location: App.scss
 Link: https://css-tricks.com/practical-css-scroll-snapping/
 Solution : apply navigation layout css setting to index.html (top priority) > index.css
+
