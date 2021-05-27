@@ -6,7 +6,7 @@ export default function Header({ menuOpen, setMenuOpen }) {
             <div className="wrapper">
                 <div className="left">
                     <a href="#home" className="logo">
-                        Mirue Chronicle
+                        Mirue's Laboratory
                     </a>
                     <div className="itemContainer">
                         Welcome! I am React.js developer enthusiast
