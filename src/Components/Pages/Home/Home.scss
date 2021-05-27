@@ -1,3 +1,13 @@
 .home{
     background-color: white;
+    display: flex;
+
+    .left{
+        flex: 0.5;
+        background-color: aquamarine;
+    }
+    .right{
+        flex: 0.5;
+        background-color: pink;
+    }
 }
