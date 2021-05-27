@@ -23,6 +23,8 @@ The problem will disappear if they removed.
 -Note : maybe start debugging it from [header, app, menu]. 
 See any duplication in route.
 
+[] Looks like this layout is not applicable to its mobile screen. This need to be worked out. [Urgency rate : 5/5]
+
 
 # refactoring note (To Do List)
 [] Menu.jsx - <li onClick={() => setMenuOpen(false)}>
