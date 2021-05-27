@@ -13,7 +13,7 @@ function App() {
   const [menuOpen, setMenuOpen] = useState(false)
   return (
     <div className="app">
-      <Header />
+      <Header menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <Footer />
       <div className="sections">
         <Home />
