@@ -17,6 +17,10 @@ Solution : apply navigation layout css setting to index.html (top priority) > in
 -When ? :
 as soon as ({menuOpen, setMenuOpen}) applies to Menu.jsx.
 The problem will disappear if they removed.
--Solution : working on it.
+-Solution : working on it. Temporailly, press F5 to refresh page.
 -Note : maybe start debugging it from [header, app, menu]. 
 See any duplication in route.
+
+# refactoring note (To Do List)
+[] Menu.jsx - <li onClick={() => setMenuOpen(false)}>
+reason : repeatitive * 3 times
