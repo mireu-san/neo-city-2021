@@ -7,7 +7,7 @@
         overflow: hidden;
         
         .imageContainer{
-            width: 700px;
+            width: 90%;
    
         }
     }
@@ -25,24 +25,45 @@
             justify-content: center;
             
             h1 {
-                font-size: 60px;
+                font-size: 45px;
                 margin: 10px 0;
             }
             h2 {
                 font-size: 35px;
             }
+            h3 {
+                font-size: 30px;
+            }
 
-            a{
+                span {
+                    font-size: inherit;
+                    color: #61dafb;
+                }
+
+                .ityped-cursor {
+                    animation: blink 1s infinite;
+                }
+
+                @keyframes blink {
+                    50%{
+                        opacity: 1;
+                    }
+                    100%{
+                        opacity: 0;
+                    }
+                }
+
+            a {
                 position: absolute;
                 bottom: 10px;
                 left: 40%;
 
                 img{
                     width: 30px;
-                    animation: arrowBlink 1.5s infinite;
+                    animation: arrowDimming 2s infinite;
                 }
 
-                @keyframes arrowBlink {
+                @keyframes arrowDimming {
                     100%{
                         opacity: 0;                        
                     }

@@ -1,6 +1,19 @@
 import "./Home.scss";
+import { init } from "ityped";
+import { useEffect, useRef } from "react";
 
 export default function Home() {
+    const textRef = useRef();
+    
+    useEffect(() => {
+        init(textRef.current, {
+            showCursor: true,
+            backDelay: 1500,
+            strings: ["React.js", "Node.js", "Redux", "HTML/CSS", "Economics algorithm to harmonise with colleague."],
+        });
+    },[]);
+
+
     return (
         <div className="home" id="home">
             <div className="left">
@@ -10,15 +23,16 @@ export default function Home() {
             </div>
             <div className="right">
                 <div className="wrapper">
-                    <h1>안녕하세요! Greetings!</h1> 
-                    <h2>THIS IS JONGWAN KIM.</h2>
-                    <h2>저는 프론트엔드 웹개발을 하고 있습니다.</h2>
-                    <h2>특히, 바닐라 JS 기반의 React.js 라이브러리 위주로 여러가지를 시도 해보고 있습니다.</h2>
+                    <h2>안녕하세요! Greetings!</h2> 
+                    <h1>I AM</h1> 
+                    <h1>JONGWAN KIM</h1>
+                    <h2>Front-end engineer enthusiast</h2>
+                    <h3>With a sense of <span ref={textRef}></span></h3>
                 </div>
                 <a href="#portfolio">
                     <img src="assets/arrow_down.png" alt="" />
                 </a>    
             </div>
         </div>
-    )
+    );
 }
