@@ -1,5 +1,5 @@
 # neo-city-2021
-My own portfolio purpose webpage to demonstrate the ability of using React.js, JS, ECMA6, (mainly) scss and so on. Some npm package may be used.
+My own portfolio purpose webpage to demonstrate the ability of using React.js, JS, ECMA6, (mainly) scss and so on. Some npm package may be used. Inspired from the Japanese style.
 
 # Technical note:
 - Used scss (snap-scrolling effect)
