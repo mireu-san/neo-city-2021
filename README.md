@@ -28,6 +28,8 @@ See any duplication in route.
 
 4. [] arrow_down.png (Home.jsx <= Home.scss>) dimming effect does not function correctly. [Urgency rate : 1/5]
 
+5. [] hover feature does not work properly. Double check this issue after rebooting.
+
 # refactoring note (To Do List)
 [] Menu.jsx - <li onClick={() => setMenuOpen(false)}>
 reason : repeatitive * 3 times
