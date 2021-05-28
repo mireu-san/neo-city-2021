@@ -34,6 +34,8 @@ See any duplication in route.
 [] Menu.jsx - <li onClick={() => setMenuOpen(false)}>
 reason : repeatitive * 3 times
 
+[] optional - change all camel-cases equally as JS format (current one is closer to python one)
+
 # Personal note:
 Looks like I am using more CSS than React. Yet, I used them correctly.
 CSS is still the area I need to keep doing the research.

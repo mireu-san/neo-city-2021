@@ -1,14 +1,19 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import PortfolioList from "../PortfolioList/PortfolioList";
 import "./Portfolio.scss";
+import { featuredPortfolio, 
+    mobilePortfolio, 
+    reactPortfolio } 
+    from "../../data";
 
 export default function Portfolio() {
     
     const [ selected, setSelected ] = useState("featured")
+    const [ data, setData ] = useState([]);
     const list = [
         {
             id: "featured",
-            title: "Featured"
+            title: "Latest"
         },
         {
             id: "mobile",
@@ -18,7 +23,25 @@ export default function Portfolio() {
             id: "react-movie",
             title: "React movie"
         },
-    ]
+    ];
+
+    useEffect(() => {
+        
+        switch(selected){
+            case "featured":
+                setData(featuredPortfolio);
+                break;
+            case "mobile":
+                setData(mobilePortfolio);
+                break;
+            case "react-movie":
+                setData(reactPortfolio);
+                break;
+            default:
+                setData(featuredPortfolio);
+        }
+
+    }, [selected])
     
     return (
         <div className="portfolio" id="portfolio">
@@ -34,13 +57,18 @@ export default function Portfolio() {
             ))}
             </ul>
             <div className="container">
-                <div className="item">
+                    {data.map(d=> (
+                        <div className="item">
                     <img 
-                        src="https://cdn.pixabay.com/photo/2020/02/22/11/09/anemone-4870275_1280.jpg" 
+                        src={d.img} 
                         alt=""
-                />
-                    <h3>App</h3>
+                        />
+                    <h3>{d.title}</h3>
                 </div>
+                    ))}
+                <a href="#contact">
+                    <img src="assets/arrow_down.png" alt="" />
+                </a> 
             </div>
         </div>
     )
