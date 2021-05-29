@@ -66,7 +66,7 @@ export default function Portfolio() {
                     <h3>{d.title}</h3>
                 </div>
                     ))}
-                <a href="#contact">
+                <a href="#works">
                     <img src="assets/arrow_down.png" alt="" />
                 </a> 
             </div>

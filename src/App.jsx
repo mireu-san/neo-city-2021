@@ -6,6 +6,7 @@ import Menu from "./Components/Containers/Menu/Menu";
 import Home from "./Components/Pages/Home/Home";
 import Portfolio from "./Components/Pages/Portfolio/Portfolio";
 import Contact from "./Components/Pages/Contact/Contact";
+import Works from "./Components/Works/Works";
 
 import "./App.scss";
 import { useState } from "react";
@@ -20,6 +21,7 @@ function App() {
       <div className="sections">
         <Home />
         <Portfolio />
+        <Works />
         <Contact />
       </div>
     </div>
