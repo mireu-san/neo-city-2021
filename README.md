@@ -20,13 +20,15 @@ as soon as ({menuOpen, setMenuOpen}) applies to Menu.jsx.
 The problem will disappear if they removed.
 -Solution : z-index typo error. Be sure, the number which is lower than the existing one may cause to completely goes below its hierarchy!
 
-3. [] Looks like this layout is not applicable to its mobile screen. This need to be worked out. [🍳Urgency rate : 5/5]
+3. [x] Looks like this layout is not applicable to its mobile screen. This need to be worked out. [🍳Urgency rate : 5/5]
 
-4. [] arrow_down.png (Home.jsx <= Home.scss>) dimming effect does not function correctly. [Urgency rate : 1/5]
+4. [x] arrow_down.png (Home.jsx <= Home.scss>) dimming effect does not function correctly. [Urgency rate : 1/5]
+Forget it, remove this all. Just replace it to the navbar first. Add some extra nav icon on the left side later.
 
-5. [] hover feature does not work properly. Double check this issue after rebooting.
+5. [x] hover feature does not work properly. Double check this issue after rebooting.
+Forget it, remove this all. Just replace it to the navbar first. Add some extra nav icon on the left side later.
 
-6. [] All layout does not support mobile responsive. Keep trying. [🍳Urgency : 5/5]
+6. [x] All layout does not support mobile responsive. Keep trying. [🍳Urgency : 5/5]
 
 # refactoring note (To Do List)
 [] Menu.jsx - <li onClick={() => setMenuOpen(false)}>
@@ -38,15 +40,15 @@ reason : repeatitive * 3 times
 Looks like I am using more CSS than React. Yet, I used them correctly.
 CSS is still the area I need to keep doing the research.
 
-# Final checklist (first round - minimum)
+# Final checklist (Main Objectives)
 [x] header - mobile [x]
 [x] footer - exclude this part.
 [x] menu
-[] contact
+[x] contact - typo mistake is now fixed
 [x] home - mobile [x]
 [] portfolio
 [] portfolio list
 [] works
 
-# Extra worklist (recommended)
-[] home - button navigator is not displayed correctly.
+# Bonus objectives (recommended)
+[] Add additional nav icon on the left side of its screen.

@@ -17,10 +17,10 @@ export default function Contact() {
             <div className="right">
                 <h2>Contact</h2>
                 <form onSubmit={handleSubmit}>
-                    <input type="text" placeholder="Email" />
-                    <textarea placeholder="Message"></textarea>
-                    <button type="submit">Send</button>
-                    {message && <span>Thank you. 확인 후 답장드리겠습니다.</span>}
+                    <input type="text" placeholder="Please input your email" />
+                    <textarea placeholder="Please input your message"></textarea>
+                    <button type="submit">Send an email</button>
+                    {message && <span>It won't take long. 확인 후, 연락드리겠습니다.</span>}
                 </form>
             </div>
         </div>
