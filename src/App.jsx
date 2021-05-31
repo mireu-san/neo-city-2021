@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "./Components/Containers/Header/Header";
-import Footer from "./Components/Containers/Footer/Footer";
+
 import Menu from "./Components/Containers/Menu/Menu";
 
 import Home from "./Components/Pages/Home/Home";
@@ -17,7 +17,7 @@ function App() {
     <div className="app">
       <Header menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-      <Footer />
+
       <div className="sections">
         <Home />
         <Portfolio />

@@ -9,7 +9,7 @@ export default function Header({ menuOpen, setMenuOpen }) {
                         Mirue's Laboratory
                     </a>
                     <div className="itemContainer">
-                        Welcome! I am React.js developer enthusiast
+                        📱+82 10 8215 8540 
                     </div> 
 
                 </div>

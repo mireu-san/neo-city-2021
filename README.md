@@ -41,3 +41,16 @@ reason : repeatitive * 3 times
 # Personal note:
 Looks like I am using more CSS than React. Yet, I used them correctly.
 CSS is still the area I need to keep doing the research.
+
+# Final checklist (first round - minimum)
+[x] header - mobile [x]
+[x] footer - exclude this part.
+[] menu
+[] contact
+[x] home - mobile [x]
+[] portfolio
+[] portfolio list
+[] works
+
+# Extra worklist (recommended)
+[] home - button navigator is not displayed correctly.
