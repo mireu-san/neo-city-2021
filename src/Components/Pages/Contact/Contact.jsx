@@ -6,13 +6,13 @@ export default function Contact() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        setMessage(true)
+        setMessage(true);
     };
 
     return (
         <div className="contact" id="contact">
             <div className="left">
-                <img src="assets/email.jpg" alt=""/>
+                <img src="assets/email.jpg" alt="" />
             </div>
             <div className="right">
                 <h2>Contact</h2>
@@ -23,7 +23,6 @@ export default function Contact() {
                     {message && <span>Thank you. 확인 후 답장드리겠습니다.</span>}
                 </form>
             </div>
-            
         </div>
     );
 }
