@@ -13,15 +13,15 @@ export default function Portfolio() {
     const list = [
         {
             id: "featured",
-            title: "Latest"
+            title: "React.js"
         },
         {
             id: "mobile",
-            title: "G&K talk"
+            title: "HTML/CSS"
         },
         {
             id: "react-movie",
-            title: "React movie"
+            title: "Backend"
         },
     ];
 
@@ -66,9 +66,7 @@ export default function Portfolio() {
                     <h3>{d.title}</h3>
                 </div>
                     ))}
-                <a href="#works">
-                    <img src="assets/arrow_down.png" alt="" />
-                </a> 
+
             </div>
         </div>
     )

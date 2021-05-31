@@ -9,8 +9,8 @@ export default function Works() {
         {
             id: "1",
             icon: "./assets/mobile.png",
-            title: "Not only user, but developer too",
-            desc: "Design the webpage by considering the aftermath.",
+            title: "JavaScript and React.js are my preference.",
+            desc: "할말 설명.",
             img:
                 ""
         },

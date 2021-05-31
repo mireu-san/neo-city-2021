@@ -10,7 +10,7 @@ export default function Home() {
             showCursor: true,
             backDelay: 1500,
             backSpeed: 60,
-            strings: ["React.js", "Redux", "Node.js", "HTML/CSS", "Economics algorithm to harmonise with colleague."],
+            strings: ["React.js", "Redux", "Node.js", "HTML/CSS", "Python", "Economics to harmonise with anyone."],
         });
     },[]);
 

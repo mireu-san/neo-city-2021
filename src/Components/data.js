@@ -1,9 +1,9 @@
 export const featuredPortfolio = [
     {
         id: 1,
-        title: "Recent project",
+        title: "Mireulix React",
         img:
-        "https://upload.wikimedia.org/wikipedia/en/9/95/Test_image.jpg"
+        "assets/s2.jpg"
     }
 ]
 
@@ -12,15 +12,15 @@ export const mobilePortfolio = [
         id: 2,
         title: "G&K KokoaTalk",
         img:
-        "https://upload.wikimedia.org/wikipedia/en/9/95/Test_image.jpg"
+        "assets/kokoa.jpg"
     }
 ]
 
 export const reactPortfolio = [
     {
         id: 3,
-        title: "Mireulix React",
+        title: "Cloned Airbnb Webpage",
         img:
-        "https://upload.wikimedia.org/wikipedia/en/9/95/Test_image.jpg"
+        "assets/airbnb1.jpg"
     }
 ]
