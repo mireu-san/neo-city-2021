@@ -9,7 +9,8 @@ export default function Home() {
         init(textRef.current, {
             showCursor: true,
             backDelay: 1500,
-            strings: ["React.js", "Node.js", "Redux", "HTML/CSS", "Economics algorithm to harmonise with colleague."],
+            backSpeed: 60,
+            strings: ["React.js", "Redux", "Node.js", "HTML/CSS", "Economics algorithm to harmonise with colleague."],
         });
     },[]);
 
@@ -18,14 +19,13 @@ export default function Home() {
         <div className="home" id="home">
             <div className="left">
                 <div className="imageContainer">
-                    <img src="assets/landscape.jpg" alt=""/>
+                    <img src="assets/landscape.jpg" alt="" />
                 </div>
             </div>
             <div className="right">
                 <div className="wrapper">
-                    <h2>안녕하세요! Greetings!</h2> 
-                    <h1>I AM</h1> 
-                    <h1>JONGWAN KIM</h1>
+                    <h2>Greetings! I am</h2> 
+                    <h1>Jongwan Kim</h1>
                     <h2>Front-end engineer enthusiast</h2>
                     <h3>With a sense of <span ref={textRef}></span></h3>
                 </div>
