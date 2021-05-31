@@ -9,10 +9,10 @@ export default function Header({ menuOpen, setMenuOpen }) {
                         Mirue's Laboratory
                     </a>
                     <div className="itemContainer">
-                        📱+82 10 8215 8540 
+                        <span>📱+82 10 8215 8540</span>
                     </div> 
-
                 </div>
+                
                 <div className="right">
                     <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
                     {/* for dynamic animation hamburger bar - line1~3 */}

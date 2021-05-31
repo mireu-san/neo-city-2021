@@ -18,11 +18,7 @@ Solution : apply navigation layout css setting to index.html (top priority) > in
 -When ? :
 as soon as ({menuOpen, setMenuOpen}) applies to Menu.jsx.
 The problem will disappear if they removed.
--Solution : working on it. Temporailly, press F5 to refresh page.
-🤔 Okay, I know this is not a perfect. Yet this way still works. Still, Consider fixing that transition bar. 
-[urgency rate : 4/5 -> 1/5]
--Note : maybe start debugging it from [header, app, menu]. 
-See any duplication in route.
+-Solution : z-index typo error. Be sure, the number which is lower than the existing one may cause to completely goes below its hierarchy!
 
 3. [] Looks like this layout is not applicable to its mobile screen. This need to be worked out. [🍳Urgency rate : 5/5]
 
@@ -45,7 +41,7 @@ CSS is still the area I need to keep doing the research.
 # Final checklist (first round - minimum)
 [x] header - mobile [x]
 [x] footer - exclude this part.
-[] menu
+[x] menu
 [] contact
 [x] home - mobile [x]
 [] portfolio
