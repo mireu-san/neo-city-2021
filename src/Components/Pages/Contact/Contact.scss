@@ -4,6 +4,9 @@
     background-color: lightblue;
     display: flex;
 
+    @include mobile {
+        flex-direction: column;
+    }
 
     .left{
         flex: 1;

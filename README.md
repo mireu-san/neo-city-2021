@@ -24,11 +24,13 @@ The problem will disappear if they removed.
 -Note : maybe start debugging it from [header, app, menu]. 
 See any duplication in route.
 
-3. [] Looks like this layout is not applicable to its mobile screen. This need to be worked out. [Urgency rate : 5/5]
+3. [] Looks like this layout is not applicable to its mobile screen. This need to be worked out. [🍳Urgency rate : 5/5]
 
 4. [] arrow_down.png (Home.jsx <= Home.scss>) dimming effect does not function correctly. [Urgency rate : 1/5]
 
 5. [] hover feature does not work properly. Double check this issue after rebooting.
+
+6. [] All layout does not support mobile responsive. Keep trying. [🍳Urgency : 5/5]
 
 # refactoring note (To Do List)
 [] Menu.jsx - <li onClick={() => setMenuOpen(false)}>
