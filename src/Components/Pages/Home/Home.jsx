@@ -24,7 +24,7 @@ export default function Home() {
             </div>
             <div className="right">
                 <div className="wrapper">
-                    <h2>Greetings! I am</h2> 
+                    <h2>Greetings! The name is</h2> 
                     <h1>Jongwan Kim</h1>
                     <h2>Front-end engineer enthusiast</h2>
                     <h3>With a sense of <span ref={textRef}></span></h3>
