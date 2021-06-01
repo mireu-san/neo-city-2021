@@ -52,5 +52,7 @@ CSS is still the area I need to keep doing the research.
 [x] works
 [] emailjs
 
-# Bonus objectives (recommended)
+# To do list (further improvement ASAP)
 [] Add additional nav icon on the left side of its screen.
+[] differentiate each image of 'works.jsx'.
+[] emailjs
