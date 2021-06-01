@@ -40,7 +40,6 @@ export default function Portfolio() {
             default:
                 setData(featuredPortfolio);
         }
-
     }, [selected])
     
     return (
@@ -49,25 +48,24 @@ export default function Portfolio() {
             <ul>
                 {list.map(item => (
                     <PortfolioList 
-                    title={item.title} 
-                    active={selected === item.id}
-                    setSelected={setSelected}
-                    id={item.id}
-                />
-            ))}
+                        title={item.title} 
+                        active={selected === item.id}
+                        setSelected={setSelected}
+                        id={item.id}
+                    />
+                ))}
             </ul>
             <div className="container">
-                    {data.map(d=> (
-                        <div className="item">
-                    <img 
-                        src={d.img} 
-                        alt=""
-                        />
-                    <h3>{d.title}</h3>
-                </div>
-                    ))}
-
+                {data.map(d=> (
+                    <div className="item">
+                        <img 
+                            src={d.img} 
+                            alt=""
+                            />
+                            <h3>{d.title}</h3>
+                    </div>
+                ))}
             </div>
         </div>
-    )
+    );
 }
