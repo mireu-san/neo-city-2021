@@ -8,7 +8,11 @@
 
             h1{
                 font-size: 50px;
-                height: 100px;
+                //height: 100px;
+
+                @include mobile {
+                    font-size: 20px;
+                }
             }
 
             ul{
@@ -17,7 +21,11 @@
                 list-style: none;
                 display: flex;
             
-            
+                @include mobile {
+                    margin: 10px 0;
+                    flex-wrap: warp;
+                    justify-content: center;
+                }
 
                 
             .container{
@@ -27,18 +35,28 @@
                 justify-content: center;
                 flex-wrap: wrap ;
 
+                @include mobile {
+                    width: 100%;
+                }
+
                 .item{
                     width: 220px;
                     height: 150px;
                     border-radius: 20px;
                     border: 1px solid white;
                     margin: 10px 20px;
+                    display: flex;
                     align-items: center;
                     justify-content: center;
                     color: white;
                     position: relative;
                     transition: all 0.5s ease;
                     cursor: pointer;
+
+                    @include mobile {
+                        width: 130px;
+                        height: 100px;
+                    }
 
                     h3{
                         position: absolute;

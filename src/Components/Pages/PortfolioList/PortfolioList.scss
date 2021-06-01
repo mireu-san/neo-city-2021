@@ -2,17 +2,17 @@
 
 .PortfolioList{
     font-size: 14px;
-    margin: 15px 15px 15px 15px;
-    padding: 10px;
+    margin-right: 50px;
+    padding: 7px;
     border-radius: 10px;
     cursor: pointer;
-    width: 40%;
-    height: 40%;
-    overflow-y: hidden;
 
+    @include mobile {
+        margin-right: 20px;
+    }
 
     &.active{
-        background-color: crimson;
-        color: $mainColor;
+        background-color: $mainColor;
+        color: white;
     }
 }

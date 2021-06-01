@@ -48,7 +48,8 @@ CSS is still the area I need to keep doing the research.
 [x] home - mobile [x]
 [] portfolio
 [] portfolio list
-[] works
+[x] works
+[] emailjs
 
 # Bonus objectives (recommended)
 [] Add additional nav icon on the left side of its screen.
