@@ -5,7 +5,8 @@ My own portfolio purpose webpage to demonstrate the ability of using React.js, J
 - Used scss (snap-scrolling effect)
 - Looks like material-ui is more dynamic than font-awesome. Replacing in progress.
 - ityped (npm) for typing effect of Home.jsx https://www.npmjs.com/package/ityped
-
+- setData (an arbitrary function extracted from useState): https://www.valentinog.com/blog/hooks/ & https://www.codota.com/code/javascript/functions/react/setData
+https://velog.io/@vies00/React-Hooks
 
 # Error note:
 1. [x] scroll-snap-align (CSS) is not working!
