@@ -31,11 +31,19 @@ Forget it, remove this all. Just replace it to the navbar first. Add some extra 
 
 6. [x] All layout does not support mobile responsive. Keep trying. [🍳Urgency : 5/5]
 
+7. [x] Contact.jsx has some size resolution issue.
+cause : unnecesarily added another div as a wrapper.
+solution: delete that wrapper like div. Otherwise, it causes scss to assume that first wrapper like div is the top hierarchy to apply them all first.
+Caution: there is no div wrapper! Just for explaning purpose here.
+
 # refactoring note (To Do List)
 [] Menu.jsx - <li onClick={() => setMenuOpen(false)}>
 reason : repeatitive * 3 times
+solution : Advised to 'independent' them separately.
 
-[] optional - change all camel-cases equally as JS format (current one is closer to python one)
+[x] optional - change all camel-cases equally as JS format (current one is closer to python one)
+reason: just realised this does not look like JS style.
+advisory: Next time, be sure to follow the rule. And never get confused with this issue again.
 
 # Personal note:
 Looks like I am using more CSS than React. Yet, I used them correctly.
@@ -50,9 +58,9 @@ CSS is still the area I need to keep doing the research.
 [] portfolio
 [] portfolio list
 [x] works
-[] emailjs
+[x] emailjs
 
 # To do list (further improvement ASAP)
 [] Add additional nav icon on the left side of its screen.
 [] differentiate each image of 'works.jsx'.
-[] emailjs
+[x] emailjs
