@@ -11,7 +11,6 @@ import Works from "./Components/Works/Works";
 import "./App.scss";
 import { useState } from "react";
 
-import * as emailjs from "emailjs-com";
 
 
 function App() {
