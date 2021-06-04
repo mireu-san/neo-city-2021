@@ -1,6 +1,8 @@
 import { useState } from "react";
 import "./Works.scss";
 
+import { NavLink } from "react-router-dom";
+
 export default function Works() {
     const [currentSlide, setCurrentSlide] = useState(0);
     const data = [
@@ -39,6 +41,8 @@ export default function Works() {
         ? setCurrentSlide(currentSlide > 0 ? currentSlide - 1 : 2) 
         : setCurrentSlide(currentSlide < data.length - 1 ? currentSlide + 1 : 0);
     };
+
+
 
     return (
         <div className="works" id="works">
