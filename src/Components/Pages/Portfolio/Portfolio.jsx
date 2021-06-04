@@ -62,12 +62,13 @@ export default function Portfolio() {
             <div className="container">
                 {data.map(db => (
                     <div className="item">
-                        <a href="https://github.com/mireu-san">
+                        
                             <img 
                                 src={db.img}
                                 alt=""
+                                onClick={() => window.open('https://github.com/mireu-san')}
                                 />
-                        </a>
+
                                 <h3>{db.title}</h3>
                     </div>
                 ))}
