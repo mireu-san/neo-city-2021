@@ -46,6 +46,7 @@ export default function Portfolio() {
     }, [selected])
     
     return (
+
         <div className="portfolio" id="portfolio">
             <h1>Portfolio</h1>
             <ul>
@@ -59,16 +60,19 @@ export default function Portfolio() {
                 ))}
             </ul>
             <div className="container">
-                {data.map(dm => (
+                {data.map(db => (
                     <div className="item">
-                        <img 
-                            src={dm.img} 
-                            alt=""
-                            />
-                            <h3>{dm.title}</h3>
+                        <a href="https://github.com/mireu-san">
+                            <img 
+                                src={db.img}
+                                alt=""
+                                />
+                        </a>
+                                <h3>{db.title}</h3>
                     </div>
                 ))}
             </div>
         </div>
     );
 }
+

@@ -7,6 +7,7 @@ My own portfolio purpose webpage to demonstrate the ability of using React.js, J
 - ityped (npm) for typing effect of Home.jsx https://www.npmjs.com/package/ityped
 - setData (an arbitrary function extracted from useState): https://www.valentinog.com/blog/hooks/ & https://www.codota.com/code/javascript/functions/react/setData
 https://velog.io/@vies00/React-Hooks
+- Dynamic component (e.g. map)
 
 # Error note:
 1. [x] scroll-snap-align (CSS) is not working!
@@ -55,12 +56,21 @@ CSS is still the area I need to keep doing the research.
 [x] menu
 [x] contact - typo mistake is now fixed
 [x] home - mobile [x]
-[] portfolio
-[] portfolio list
+[x] portfolio
+[x] portfolio list
 [x] works
 [x] emailjs
 
 # To do list (further improvement ASAP)
 [] Add additional nav icon on the left side of its screen.
-[] differentiate each image of 'works.jsx'.
+
+[Working...] differentiate each image of 'works.jsx'.
+So why am I struggling here again? To insert Link hook properly, need to review how to use 'useEffect'.
+ 
+
 [x] emailjs
+
+[] insert Link or NavLink hook to either portfolio or works
+
+[] For mobile : Create additional page for each project - as an introduction page. 
+This is the only perfect way to internally, freely introduce each of it.

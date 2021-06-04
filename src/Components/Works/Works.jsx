@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./Works.scss";
 
-import { NavLink } from "react-router-dom";
+
 
 export default function Works() {
     const [currentSlide, setCurrentSlide] = useState(0);
@@ -13,7 +13,7 @@ export default function Works() {
             desc: "단순하지만 넷플릭스의 분위기를 연출하는데 중점을 두었습니다. 최근 TV 방영 프로그램을 소개하는 페이지이며, 외부 오픈 API 에 의존하여 구동됩니다. 숙련도는 '익숙한 단계' 입니다.",
             project: "#react.js",
             img:
-                ""
+                "./assets/arrow.png"
         },
         {
             id: "2",
