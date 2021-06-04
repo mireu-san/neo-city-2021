@@ -66,7 +66,7 @@ export default function Portfolio() {
                             <img 
                                 src={db.img}
                                 alt=""
-                                onClick={() => window.open('https://github.com/mireu-san')}
+                                onClick={() => window.open("https://github.com/mireu-san")}
                                 />
 
                                 <h3>{db.title}</h3>
