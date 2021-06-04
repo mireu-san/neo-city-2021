@@ -59,6 +59,7 @@ export default function Works() {
                                         <img 
                                             src={db.icon} 
                                             alt=""
+                                            onClick={() => window.open("https://github.com/mireu-san")}
                                         />
                                     </div>
                                     <h2>{db.title}</h2>        
@@ -68,8 +69,9 @@ export default function Works() {
                             </div>
                             <div className="right">
                                 <img 
-                                    src="assets/nature1.jpg" 
-                                    alt="" 
+                                    src="assets/work.jpg" 
+                                    alt=""
+                                    onClick={() => window.open("https://github.com/mireu-san")} 
                                 />
                             </div>
                         </div>
