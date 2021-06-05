@@ -28,11 +28,11 @@ export default function Contact() {
                 <div className="right">
                     <h2>Contact</h2>
                         <form onSubmit={handleSubmit}>
-                            <input type="text"  placeholder="Name" name="name"/>
+                            <input type="text"  placeholder="Name / Organisation" name="name"/>
                             <input type="email"  placeholder="email" name="email"/>
-                            <input type="text"  placeholder="subject" name="subject"/>
-                            <textarea id="" cols="30" rows="8" placeholder="Your message" name="message"></textarea>
-                            <button type="submit" value="Send Message">Send Message</button>
+                            <input type="text"  placeholder="Subject" name="subject"/>
+                            <textarea id="" cols="30" rows="8" placeholder="문의하실 내용을 남겨주시기 바랍니다.   Please leave your message" name="message"></textarea>
+                            <button type="submit" value="Send Message">Send inquiry</button>
                             {message && <span>메일이 전송되었습니다! 확인 후, 연락드리겠습니다.</span>}
                     </form>
                 </div>
