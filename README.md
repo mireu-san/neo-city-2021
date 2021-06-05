@@ -62,15 +62,17 @@ CSS is still the area I need to keep doing the research.
 [x] emailjs
 
 # To do list (further improvement ASAP)
-[] Add additional nav icon on the left side of its screen.
+[Pending...] Add additional nav icon on the left side of its screen.
 
-[Working...] differentiate each image of 'works.jsx'.
-So why am I struggling here again? To insert Link hook properly, need to review how to use 'useEffect'.
+[Working...] Change of plan - differentiate each image of 'works.jsx'.
+So why am I struggling here again? To insert Link hook properly, may consider to review how to use 'useEffect'.
  
+[] Consider to set up a new page - About me
+Still, this can be emphasised on resume. However, it is always good to make this better too.
 
 [x] emailjs
 
-[] insert Link or NavLink hook to either portfolio or works
+[x] insert Link or NavLink hook to either portfolio or works
 
-[] For mobile : Create additional page for each project - as an introduction page. 
+[cancelled] For mobile : Create additional page for each project - as an introduction page. 
 This is the only perfect way to internally, freely introduce each of it.
