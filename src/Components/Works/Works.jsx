@@ -37,7 +37,7 @@ export default function Works() {
             id: "4",
             icon: "./assets/arrow.png",
             title: "The portfolio page - Mireu's Laboratory",
-            desc: "본 웹 사이트는 React.js 를 기반으로 제작되었으며, UI 부분은 scss 를 이용하여 구성되었습니다. 주된 목표는 '나중에 코드를 다시 봐도 수정할 마음이 생기는 웹페이지' 입니다.",
+            desc: "본 웹 사이트는 React.js 를 기반으로 제작되었으며, UI 부분은 scss 를 이용하여 구성되었습니다. 반응형에 추점을 두었으며, 개발 과정에서 정한 목표는 '나중에 코드를 다시 봐도 수정할 마음이 생기는 웹페이지' 입니다.",
             project: "#react.js, scss",
             img:
                 ""
