@@ -3,9 +3,10 @@
 .PortfolioList{
     font-size: 14px;
     margin-right: 50px;
-    padding: 7px;
+    padding: 8px;
     border-radius: 10px;
     cursor: pointer;
+    
 
     @include mobile {
         margin-right: 20px;
